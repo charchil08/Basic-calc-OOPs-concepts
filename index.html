@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic calculator using OOPs Principle</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        padding-bottom: 5px;
+        border-bottom: 5px double goldenrod;
+      }
+      .container {
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #start {
+        width: 100px;
+        height: 40px;
+        border: 2px solid goldenrod;
+        border-radius: 5px;
+        color: darkgoldenrod;
+        background-color: white;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    </style>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="heading">Hit Enter to start calculation ! 🧮</h1>
+    </div>
+    <div class="container">
+      <input type="submit" value="Start" name="start" id="start" />
+    </div>
+  </body>
+</html>
